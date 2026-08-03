@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Salmanul Faris | Finance Professional | Salman Finance</title>
+<title>Salmanul Faris | Senior Accountant | Salman Finance</title>
 
 <style>
 
 *{
+margin:0;
+padding:0;
 box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#f6f8fb;
+background:#f7f9fc;
 color:#333;
 line-height:1.6;
 }
@@ -23,128 +25,98 @@ line-height:1.6;
 header{
 background:#061b36;
 color:white;
-padding:30px 20px;
-text-align:center;
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
 }
 
-header h1{
-font-size:40px;
-margin:0;
+.logo{
+font-size:30px;
+font-weight:bold;
 }
 
-header span{
+.logo span{
 color:#d4af37;
-}
-
-nav{
-margin-top:15px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
 margin:0 12px;
+font-size:16px;
 }
 
 .hero{
 display:flex;
 align-items:center;
 justify-content:center;
-flex-wrap:wrap;
-padding:70px 20px;
+gap:40px;
+padding:80px 8%;
 background:white;
+flex-wrap:wrap;
 }
 
-.photo{
-width:260px;
-height:260px;
+.profile-box{
+width:280px;
+height:280px;
 border-radius:50%;
 background:#ddd;
 display:flex;
 align-items:center;
 justify-content:center;
-margin:20px;
 color:#777;
 font-size:18px;
 }
 
-.intro{
-max-width:600px;
-padding:20px;
+.hero-text{
+max-width:650px;
 }
 
-.intro h2{
-font-size:38px;
+.hero-text h1{
+font-size:45px;
 color:#061b36;
 }
 
-.gold{
+.hero-text h1 span{
 color:#c79b30;
 }
 
+.hero-text h2{
+font-size:25px;
+margin:15px 0;
+color:#555;
+}
+
+.hero-text p{
+font-size:18px;
+}
+
 .btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+border-radius:30px;
 background:#c79b30;
 color:white;
-padding:14px 30px;
-border-radius:30px;
 text-decoration:none;
-display:inline-block;
-margin-top:20px;
+margin-right:10px;
+}
+
+.btn-dark{
+background:#061b36;
 }
 
 section{
-max-width:1100px;
-margin:auto;
-padding:50px 20px;
+padding:60px 8%;
 }
 
 .title{
 text-align:center;
+font-size:34px;
 color:#061b36;
-font-size:32px;
-margin-bottom:30px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:12px;
-margin-bottom:20px;
-box-shadow:0 5px 20px #ddd;
-}
-
-.highlight{
-display:flex;
-flex-wrap:wrap;
-gap:20px;
-}
-
-.box{
-background:white;
-padding:20px;
-flex:1;
-min-width:220px;
-border-radius:10px;
-text-align:center;
-box-shadow:0 3px 15px #ddd;
-}
-
-.skills{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-}
-
-.skill{
-background:#061b36;
-color:white;
-padding:10px 18px;
-border-radius:20px;
-}
-
-.timeline{
-border-left:4px solid #c79b30;
-padding-left:20px;
+margin-bottom:35px;
 }
 
 .about{
@@ -156,28 +128,33 @@ color:white;
 color:white;
 }
 
-.contact{
-text-align:center;
+.about p{
+max-width:1000px;
+margin:auto;
+font-size:18px;
 }
 
-.whatsapp{
-position:fixed;
-right:20px;
-bottom:20px;
-background:#25D366;
-color:white;
-padding:15px 22px;
-border-radius:40px;
-text-decoration:none;
-font-weight:bold;
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
 }
 
-footer{
-background:#061b36;
-color:white;
-text-align:center;
-padding:20px;
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+flex:1;
+min-width:250px;
+box-shadow:0 5px 20px #ddd;
 }
+
+.card h3{
+color:#061b36;
+margin-bottom:10px;
+}
+
 
 </style>
 
@@ -188,16 +165,18 @@ padding:20px;
 
 <header>
 
-<h1><span>Salman</span> Finance</h1>
+<div class="logo">
+Salman <span>Finance</span>
+</div>
 
-<p>Independent Finance Professional | Founded by Salmanul Faris</p>
 
 <nav>
 <a href="#about">About</a>
 <a href="#experience">Experience</a>
-<a href="#services">Services</a>
+<a href="#skills">Skills</a>
 <a href="#contact">Contact</a>
 </nav>
+
 
 </header>
 
@@ -205,204 +184,188 @@ padding:20px;
 
 <div class="hero">
 
-<div class="photo">
+
+<div class="profile-box">
 Professional Photo
 </div>
 
 
-<div class="intro">
+<div class="hero-text">
+
+<h1>
+Salmanul <span>Faris</span>
+</h1>
+
 
 <h2>
-Senior Accountant & <span class="gold">Finance Professional</span>
+Senior Accountant | Finance Professional | Accounting & ERP Specialist
 </h2>
 
+
 <p>
-Providing accounting, bookkeeping and financial support for UAE, GCC and Indian businesses.
+Helping businesses with reliable accounting and finance solutions.
+Experienced in UAE and Indian accounting environments across manufacturing,
+trading and service industries.
 </p>
+
 
 <a class="btn" href="#contact">
 Contact Me
 </a>
 
-</div>
+
+<a class="btn btn-dark" href="cv/Salmanul-Faris-CV.pdf">
+Download CV
+</a>
+
 
 </div>
 
 
-
+</div>
 <section id="about" class="about">
 
 <h2 class="title">About Me</h2>
 
 <p>
-I am Salmanul Faris, a Finance Professional with experience in UAE and Indian accounting environments.
-I specialize in accounting operations, financial reporting, bookkeeping and business finance support.
+I am Salmanul Faris, a Senior Accountant and Finance Professional with 5+ years of experience in accounting, finance operations, and reporting across manufacturing, chemicals, trading, and multi-industry organizations.
 </p>
+
+<br>
 
 <p>
-My technical expertise includes Tally Prime, Tally ERP, Zoho Books, QuickBooks,
-Peachtree, SAP FICO fundamentals and Microsoft Excel reporting.
+I started my professional journey in Kerala, India, where I gained practical experience in accounting, online sales coordination, and business operations in a manufacturing environment.
+</p>
+
+<br>
+
+<p>
+After moving to the UAE, I developed my expertise in finance and accounting operations, handling financial reporting, reconciliations, accounts payable, accounts receivable, VAT support, supplier and customer ageing analysis, and daily accounting activities.
+</p>
+
+<br>
+
+<p>
+Currently, I work as Senior Accountant and Finance Executive managing accounting activities across Werner Generators LLC, Exigen LLC, and Radiant Energy, supporting manufacturing, trading, and rental business operations.
+</p>
+
+<br>
+
+<p>
+My goal is to use my accounting knowledge, ERP skills, and business understanding to support organizations with accurate financial information and efficient finance processes.
 </p>
 
 </section>
-
-
-
-
-<section>
-
-<h2 class="title">Professional Highlights</h2>
-
-<div class="highlight">
-
-<div class="box">
-<h3>UAE Experience</h3>
-<p>Accounting and finance operations experience in UAE business environments.</p>
-</div>
-
-<div class="box">
-<h3>Multi Industry</h3>
-<p>Experience in manufacturing, trading and service-related businesses.</p>
-</div>
-
-<div class="box">
-<h3>Financial Control</h3>
-<p>Reporting, reconciliation and accounting process management.</p>
-</div>
-
-</div>
-
-</section>
-
 
 
 
 <section id="experience">
 
-<h2 class="title">Career Timeline</h2>
+<h2 class="title">
+Professional Experience
+</h2>
 
 
-<div class="timeline">
+<div class="cards">
+
 
 <div class="card">
-<h3>UAE - Senior Accountant / Finance Executive</h3>
+
+<h3>
+Senior Accountant | Finance Executive
+</h3>
+
 <p>
-Managing accounting operations, financial reports, bank reconciliation,
-payables, receivables, ageing analysis and VAT support.
+Werner Generators LLC, Exigen LLC & Radiant Energy - UAE
 </p>
+
+<p>
+Managing accounting operations, financial reporting, general ledger, bank reconciliation,
+accounts payable, accounts receivable, cash flow monitoring, ageing analysis,
+VAT support and finance reporting.
+</p>
+
 </div>
 
 
+
 <div class="card">
-<h3>India - Accounting Experience</h3>
+
+<h3>
+Senior Accountant - UAE
+</h3>
+
 <p>
-Accounting records, financial statements, taxation support and business finance activities.
+Chemical Manufacturing Industry
 </p>
+
+<p>
+Handled complete accounting functions including supplier management,
+customer accounts, reconciliations, financial records and daily finance operations.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Accountant - India
+</h3>
+
+<p>
+Manufacturing Industry
+</p>
+
+<p>
+Experience in accounting activities, business operations support,
+online sales coordination and financial record management.
+</p>
+
 </div>
 
 
 </div>
 
 </section>
-
-
-
-
-<section id="services">
-
-<h2 class="title">Services</h2>
-
-<div class="card">
-
-<ul>
-<li>Bookkeeping & Accounting Support</li>
-<li>Financial Reporting</li>
-<li>Bank Reconciliation</li>
-<li>Accounts Payable & Receivable Management</li>
-<li>VAT Documentation Support</li>
-<li>Accounting Software Support</li>
-<li>Excel Financial Reports</li>
-</ul>
-
-</div>
-
-</section>
-
 
 
 
 <section>
 
-<h2 class="title">Technical Skills</h2>
-
-<div class="skills">
-
-<div class="skill">Tally Prime</div>
-<div class="skill">Tally ERP</div>
-<div class="skill">Zoho Books</div>
-<div class="skill">QuickBooks</div>
-<div class="skill">Peachtree</div>
-<div class="skill">SAP FICO</div>
-<div class="skill">MS Excel</div>
-<div class="skill">VAT Support</div>
-
-</div>
-
-</section>
+<h2 class="title">
+Professional Highlights
+</h2>
 
 
+<div class="cards">
 
-
-<section>
-
-<h2 class="title">Education & Certifications</h2>
 
 <div class="card">
-
+<h3>Industry Experience</h3>
 <p>
-• Master of Commerce (M.Com)<br>
-• Bachelor of Commerce (B.Com)<br>
-• International Diploma in Computerised Accounting & Finance<br>
-• Accounting Software Training<br>
-• SAP FICO Fundamentals
+Manufacturing, Chemicals, Trading and Rental Business Operations.
 </p>
+</div>
+
+
+<div class="card">
+<h3>Finance Skills</h3>
+<p>
+Reporting, Reconciliation, AP, AR, VAT Support and Financial Control.
+</p>
+</div>
+
+
+<div class="card">
+<h3>ERP Knowledge</h3>
+<p>
+Experience with multiple accounting software and ERP systems.
+</p>
+</div>
+
 
 </div>
 
 </section>
-
-
-
-
-<section id="contact" class="contact">
-
-<h2 class="title">Contact</h2>
-
-<p>Email: mailforsfaris@gmail.com</p>
-
-<p>WhatsApp: 971569104305</p>
-
-<a class="btn" href="https://wa.me/971569104305">
-Chat on WhatsApp
-</a>
-
-</section>
-
-
-<a class="whatsapp" href="https://wa.me/971569104305">
-WhatsApp
-</a>
-
-
-
-<footer>
-
-<p>
-© 2026 Salman Finance | Salmanul Faris
-</p>
-
-</footer>
-
-
-</body>
-</html>
