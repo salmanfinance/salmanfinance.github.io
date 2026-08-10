@@ -171,6 +171,91 @@ border-radius:12px;
 box-shadow:0 5px 20px rgba(0,0,0,0.3);
 }
 
+.awards{
+background:#f5f5f5;
+}
+
+.awards .title{
+color:#061b36;
+}
+
+.awards-container{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+gap:30px;
+max-width:1200px;
+margin:auto;
+}
+
+.award-card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 8px 25px rgba(0,0,0,0.1);
+transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-card:hover{
+transform:translateY(-10px);
+box-shadow:0 12px 35px rgba(0,0,0,0.2);
+}
+
+.award-image{
+width:100%;
+height:250px;
+overflow:hidden;
+background:#e0e0e0;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.award-image img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.award-content{
+padding:25px;
+}
+
+.award-badge{
+display:inline-block;
+background:#c79b30;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.award-card h3{
+color:#061b36;
+font-size:22px;
+margin-bottom:10px;
+}
+
+.award-company{
+color:#666;
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+
+.award-description{
+color:#555;
+font-size:14px;
+line-height:1.6;
+margin-bottom:12px;
+}
+
+.award-year{
+color:#999;
+font-size:13px;
+}
+
 .cards{
 display:flex;
 gap:20px;
@@ -208,6 +293,7 @@ Salman <span>Finance</span>
 
 <nav>
 <a href="#about">About</a>
+<a href="#awards">Awards</a>
 <a href="#experience">Experience</a>
 <a href="#skills">Skills</a>
 <a href="#contact">Contact</a>
@@ -305,6 +391,31 @@ My goal is to use my accounting knowledge, ERP skills, and business understandin
 </section>
 
 
+<section id="awards" class="awards">
+
+<h2 class="title">Awards & Recognition</h2>
+
+<div class="awards-container">
+
+<div class="award-card">
+<div class="award-image">
+<img src="award-placeholder.png" alt="Best Performer Award">
+</div>
+<div class="award-content">
+<span class="award-badge">🏆 Award</span>
+<h3>Best Performer</h3>
+<p class="award-company">Accounts Department</p>
+<p class="award-description">
+Recognized for exceptional performance and outstanding contribution to the accounts department. Awarded for dedication, accuracy, and commitment to excellence in financial operations.
+</p>
+<p class="award-year">Vanguard Doors and Ironmongeries LLP</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
 
 <section id="experience">
 
@@ -362,12 +473,12 @@ Accountant - India
 </h3>
 
 <p>
-Manufacturing Industry
+Vanguard Doors and Ironmongeries LLP - Kerala
 </p>
 
 <p>
 Experience in accounting activities, business operations support,
-online sales coordination and financial record management.
+online sales coordination and financial record management in manufacturing environment.
 </p>
 
 </div>
