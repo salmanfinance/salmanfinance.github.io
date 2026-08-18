@@ -235,7 +235,6 @@ nav a:hover{
 }
 
 
-
 /* =========================
    QUICK STATS
 ========================= */
@@ -305,12 +304,29 @@ nav a:hover{
     color:#071d35;
 }
 
+.about-photo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-photo img{
+    width:100%;
+    max-width:330px;
+    height:380px;
+    object-fit:cover;
+    object-position:center;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
 .about-box{
     background:#071d35;
     color:white;
     padding:35px;
     border-radius:18px;
     box-shadow:0 15px 35px rgba(7,29,53,0.20);
+    margin-top:10px;
 }
 
 .about-box h3{
@@ -867,6 +883,19 @@ footer p{
         grid-template-columns:1fr;
     }
 
+    .about-photo{
+        order:2;
+    }
+
+    .about-text{
+        order:1;
+    }
+
+    .about-photo img{
+        max-width:330px;
+        height:380px;
+    }
+
     .skill-grid,
     .cert-grid,
     .service-grid,
@@ -942,6 +971,11 @@ footer p{
     .gallery-grid,
     .software-grid{
         grid-template-columns:1fr;
+    }
+
+    .about-photo img{
+        max-width:280px;
+        height:340px;
     }
 
     .award-image{
@@ -1113,6 +1147,9 @@ continuous learning and exposure to different business environments.
 
 <div class="about-grid">
 
+
+<!-- LEFT SIDE -->
+
 <div class="about-text">
 
 <p>
@@ -1156,13 +1193,6 @@ and finance articles, showcase certifications and achievements, and connect
 with professionals, businesses and future opportunities.
 </p>
 
-<div>
-
-<div class="about-photo">
-
-<img src="photo.png" alt="Salmanul Faris">
-
-</div>
 
 <div class="about-box">
 
@@ -1189,6 +1219,18 @@ with professionals, businesses and future opportunities.
 </ul>
 
 </div>
+
+</div>
+
+
+<!-- RIGHT SIDE PHOTO -->
+
+<div class="about-photo">
+
+<img src="photo.png" alt="Salmanul Faris">
+
+</div>
+
 
 </div>
 
