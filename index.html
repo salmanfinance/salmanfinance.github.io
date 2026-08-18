@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Salmanul Faris | Senior Accountant | Finance Professional</title>
+<title>Salmanul Faris | Senior Accountant | Salman Finance</title>
 
-<meta name="description" content="Salmanul Faris - Senior Accountant, Finance Professional and Accounting & ERP Specialist with professional experience across India and the UAE.">
-
-<meta name="keywords" content="Salmanul Faris, Senior Accountant UAE, Finance Professional, Accountant Dubai, Accounting ERP Specialist, Salman Finance">
+<meta name="description" content="Salmanul Faris - Senior Accountant and Finance Professional in the UAE, specializing in accounting, finance operations, ERP systems and reporting.">
 
 <style>
-
-/* =========================
-   GLOBAL
-========================= */
 
 *{
     margin:0;
@@ -30,37 +22,21 @@ html{
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#f6f8fb;
+    background:#f7f9fc;
     color:#333;
-    line-height:1.7;
+    line-height:1.6;
 }
 
-a{
-    text-decoration:none;
-}
-
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-
-section{
-    padding:80px 0;
-}
-
-
-/* =========================
-   HEADER
-========================= */
+/* HEADER */
 
 header{
     background:#061b36;
     color:white;
-    padding:20px 5%;
+    padding:22px 8%;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    flex-wrap:wrap;
     position:sticky;
     top:0;
     z-index:1000;
@@ -68,7 +44,7 @@ header{
 }
 
 .logo{
-    font-size:28px;
+    font-size:30px;
     font-weight:bold;
     letter-spacing:.5px;
 }
@@ -85,8 +61,9 @@ nav{
 
 nav a{
     color:white;
-    margin-left:22px;
-    font-size:14px;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:15px;
     transition:.3s;
 }
 
@@ -94,576 +71,330 @@ nav a:hover{
     color:#d4af37;
 }
 
-
-/* =========================
-   HERO
-========================= */
+/* HERO */
 
 .hero{
-    background:
-    linear-gradient(135deg,#061b36 0%,#0d3156 60%,#102f4d 100%);
-    color:white;
-    padding:100px 5%;
-}
-
-.hero-container{
-    max-width:1200px;
-    margin:auto;
+    background:white;
+    min-height:600px;
+    padding:80px 8%;
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    gap:60px;
+    justify-content:center;
+    gap:70px;
     flex-wrap:wrap;
 }
 
-.hero-text{
-    flex:1;
-    min-width:300px;
-}
-
-.hero-label{
-    color:#d4af37;
-    font-size:14px;
-    font-weight:bold;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    margin-bottom:15px;
-}
-
-.hero h1{
-    font-size:55px;
-    line-height:1.15;
-    margin-bottom:18px;
-}
-
-.hero h1 span{
-    color:#d4af37;
-}
-
-.hero h2{
-    font-size:24px;
-    font-weight:500;
-    color:#e4e9ef;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:18px;
-    color:#d8e0e8;
-    max-width:720px;
-}
-
-.hero-buttons{
-    margin-top:30px;
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
-}
-
-.btn{
-    display:inline-block;
-    padding:13px 25px;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.btn-gold{
-    background:#d4af37;
-    color:#061b36;
-}
-
-.btn-gold:hover{
-    background:white;
-}
-
-.btn-dark{
-    background:white;
-    color:#061b36;
-}
-
-.btn-dark:hover{
-    background:#d4af37;
-}
-
-
-/* =========================
-   PROFILE PHOTO
-========================= */
-
-.profile-container{
+.profile-box{
     width:310px;
     height:310px;
     border-radius:50%;
     overflow:hidden;
-    background:#f0f0f0;
-    border:7px solid rgba(212,175,55,.8);
-    box-shadow:0 15px 45px rgba(0,0,0,.35);
+    background:#e5e5e5;
+    border:7px solid #d4af37;
+    box-shadow:0 10px 35px rgba(0,0,0,.15);
     flex-shrink:0;
 }
 
-.profile-container img{
+.profile-box img{
     width:100%;
     height:100%;
-    border-radius:50%;
-    object-fit:contain;
-    object-position:center;
+    object-fit:cover;
+    object-position:center top;
     display:block;
-    background:#061b36;
-    padding:8px;
 }
 
-
-/* =========================
-   SECTION TITLES
-========================= */
-
-.section-title{
-    text-align:center;
-    margin-bottom:50px;
+.hero-text{
+    max-width:700px;
 }
 
-.section-title h2{
-    font-size:38px;
+.hero-text h1{
+    font-size:52px;
     color:#061b36;
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
-.section-title span{
+.hero-text h1 span{
+    color:#c79b30;
+}
+
+.hero-text h2{
+    font-size:25px;
+    font-weight:600;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    color:#555;
+    max-width:650px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:13px 28px;
+    border-radius:30px;
+    background:#c79b30;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    background:#b58b22;
+}
+
+.btn-dark{
+    background:#061b36;
+}
+
+.btn-dark:hover{
+    background:#0d2b4f;
+}
+
+/* GENERAL */
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:35px;
+    color:#061b36;
+    margin-bottom:40px;
+    position:relative;
+}
+
+.title::after{
+    content:"";
     display:block;
-    width:70px;
-    height:4px;
+    width:55px;
+    height:3px;
     background:#d4af37;
-    margin:0 auto 18px;
-    border-radius:5px;
+    margin:12px auto 0;
 }
 
-.section-title p{
-    max-width:750px;
-    margin:auto;
-    color:#666;
-}
-
-
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 
 .about{
     background:#061b36;
     color:white;
 }
 
-.about .section-title h2{
+.about .title{
     color:white;
 }
 
-.about .section-title p{
-    color:#cbd5df;
+.about-content{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
 }
 
-.about-grid{
-    display:grid;
-    grid-template-columns:1.4fr .8fr;
-    gap:50px;
-    align-items:center;
+.about-text{
+    flex:1;
+    min-width:300px;
 }
 
 .about-text p{
-    margin-bottom:18px;
-    color:#e0e6ed;
     font-size:17px;
+    margin-bottom:15px;
 }
 
 .about-image{
-    text-align:center;
+    flex:1;
+    min-width:300px;
+    display:flex;
+    justify-content:center;
 }
 
 .about-image img{
     width:100%;
     max-width:430px;
-    max-height:520px;
-    object-fit:contain;
+    max-height:480px;
+    object-fit:cover;
+    object-position:center top;
     border-radius:15px;
-    background:#fff;
-    padding:8px;
-    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    border:3px solid #d4af37;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
+/* CARDS */
 
-/* =========================
-   PROFESSIONAL SUMMARY
-========================= */
-
-.summary{
-    background:white;
-}
-
-.summary-grid{
+.cards{
+    max-width:1200px;
+    margin:auto;
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:25px;
 }
 
-.summary-card{
-    background:#f7f9fc;
-    padding:30px;
-    border-radius:15px;
-    border-top:4px solid #d4af37;
-    box-shadow:0 7px 25px rgba(0,0,0,.06);
-}
-
-.summary-card h3{
-    color:#061b36;
-    margin-bottom:12px;
-}
-
-
-/* =========================
-   EXPERIENCE
-========================= */
-
-.experience{
-    background:#f6f8fb;
-}
-
-.experience-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.experience-card{
+.card{
     background:white;
     padding:30px;
-    border-radius:15px;
-    box-shadow:0 7px 25px rgba(0,0,0,.07);
-    border-left:4px solid #d4af37;
-}
-
-.experience-card h3{
-    color:#061b36;
-    font-size:21px;
-    margin-bottom:10px;
-}
-
-.company{
-    color:#c79b30;
-    font-weight:bold;
-    margin-bottom:15px;
-}
-
-.experience-card ul{
-    padding-left:20px;
-}
-
-.experience-card li{
-    margin-bottom:7px;
-}
-
-
-/* =========================
-   SKILLS
-========================= */
-
-.skills{
-    background:white;
-}
-
-.skills-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:30px;
-}
-
-.skill-box{
-    background:#f7f9fc;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 7px 25px rgba(0,0,0,.06);
-}
-
-.skill-box h3{
-    color:#061b36;
-    margin-bottom:20px;
-    font-size:22px;
-}
-
-.skill-list{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-}
-
-.skill{
-    background:#061b36;
-    color:white;
-    padding:9px 15px;
-    border-radius:20px;
-    font-size:13px;
-}
-
-.skill.gold{
-    background:#d4af37;
-    color:#061b36;
-}
-
-
-/* =========================
-   SOFTWARE
-========================= */
-
-.software{
-    background:#f6f8fb;
-}
-
-.software-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-}
-
-.software-card{
-    background:white;
-    padding:28px 20px;
-    text-align:center;
-    border-radius:15px;
-    box-shadow:0 6px 20px rgba(0,0,0,.07);
+    border-radius:14px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    border-top:3px solid #d4af37;
     transition:.3s;
 }
 
-.software-card:hover{
-    transform:translateY(-7px);
-}
-
-.software-card h3{
-    color:#061b36;
-    margin-bottom:8px;
-}
-
-.software-card p{
-    color:#777;
-    font-size:14px;
-}
-
-
-/* =========================
-   EDUCATION
-========================= */
-
-.education{
-    background:white;
-}
-
-.education-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:30px;
-}
-
-.education-card{
-    background:#f7f9fc;
-    padding:30px;
-    border-radius:15px;
-    border-left:4px solid #d4af37;
-}
-
-.education-card h3{
-    color:#061b36;
-    margin-bottom:8px;
-}
-
-.education-card .year{
-    color:#c79b30;
-    font-weight:bold;
-}
-
-
-/* =========================
-   CERTIFICATIONS
-========================= */
-
-.certifications{
-    background:#f6f8fb;
-}
-
-.cert-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.cert-card{
-    background:white;
-    padding:28px;
-    border-radius:15px;
-    box-shadow:0 7px 25px rgba(0,0,0,.06);
-    transition:.3s;
-}
-
-.cert-card:hover{
+.card:hover{
     transform:translateY(-6px);
+    box-shadow:0 10px 30px rgba(0,0,0,.13);
 }
 
-.cert-icon{
-    font-size:30px;
-    margin-bottom:12px;
-}
-
-.cert-card h3{
+.card h3{
     color:#061b36;
-    margin-bottom:10px;
+    margin-bottom:12px;
+    font-size:21px;
 }
 
+.card p{
+    color:#555;
+}
 
-/* =========================
-   AWARDS
-========================= */
+/* AWARDS */
 
 .awards{
-    background:white;
+    background:#f1f3f6;
 }
 
-.awards-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+.awards-container{
+    max-width:800px;
+    margin:auto;
 }
 
 .award-card{
-    background:#f7f9fc;
+    background:white;
     border-radius:15px;
     overflow:hidden;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.award-card:hover{
-    transform:translateY(-8px);
+    box-shadow:0 8px 30px rgba(0,0,0,.1);
 }
 
 .award-image{
     width:100%;
-    height:320px;
+    height:420px;
     background:#eee;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     overflow:hidden;
 }
 
 .award-image img{
     width:100%;
     height:100%;
-    object-fit:cover;
+    object-fit:contain;
 }
 
 .award-content{
-    padding:25px;
+    padding:30px;
 }
 
 .award-badge{
     display:inline-block;
     background:#d4af37;
-    color:#061b36;
-    padding:6px 14px;
+    color:white;
+    padding:7px 15px;
     border-radius:20px;
     font-size:12px;
     font-weight:bold;
-    margin-bottom:10px;
+    margin-bottom:12px;
 }
 
-.award-content h3{
+.award-card h3{
     color:#061b36;
+    font-size:25px;
     margin-bottom:8px;
 }
 
 .award-company{
+    color:#777;
     font-weight:bold;
-    color:#666;
+    margin-bottom:10px;
 }
 
-.award-year{
-    margin-top:10px;
-    font-size:13px;
-    color:#888;
+.award-description{
+    color:#555;
 }
 
+/* EXPERIENCE */
 
-/* =========================
-   SERVICES
-========================= */
+#experience{
+    background:white;
+}
 
-.services{
+/* SKILLS */
+
+.skills-section{
+    background:#f7f9fc;
+}
+
+.skill-list{
+    line-height:2;
+    color:#555;
+}
+
+/* EDUCATION */
+
+.education-section{
+    background:white;
+}
+
+.education-card{
+    max-width:900px;
+    margin:auto;
+}
+
+/* SERVICES */
+
+.services-section{
     background:#061b36;
+}
+
+.services-section .title{
     color:white;
 }
 
-.services .section-title h2{
-    color:white;
+.services-section .card{
+    border-top:none;
+    border-bottom:3px solid #d4af37;
 }
 
-.services .section-title p{
-    color:#cbd5df;
-}
+/* ARTICLES */
 
-.services-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.service-card{
-    background:#102d4c;
-    padding:30px;
-    border-radius:15px;
-    border:1px solid rgba(212,175,55,.25);
-}
-
-.service-card h3{
-    color:#d4af37;
-    margin-bottom:12px;
-}
-
-.service-card p{
-    color:#dbe3eb;
-}
-
-
-/* =========================
-   BLOG
-========================= */
-
-.blog{
-    background:#f6f8fb;
-}
-
-.blog-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
+.blog-section{
+    background:#f1f3f6;
 }
 
 .blog-card{
     background:white;
     padding:30px;
-    border-radius:15px;
-    box-shadow:0 7px 25px rgba(0,0,0,.07);
-    border-top:4px solid #d4af37;
+    border-radius:14px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    border-left:4px solid #d4af37;
     transition:.3s;
 }
 
 .blog-card:hover{
-    transform:translateY(-7px);
-    box-shadow:0 12px 30px rgba(0,0,0,.12);
+    transform:translateY(-5px);
 }
 
 .blog-tag{
     display:inline-block;
-    color:#061b36;
-    background:#f4f0e3;
-    padding:6px 13px;
-    border-radius:20px;
-    font-size:12px;
+    color:#c79b30;
+    font-size:13px;
     font-weight:bold;
-    margin-bottom:15px;
+    text-transform:uppercase;
+    margin-bottom:10px;
 }
 
 .blog-card h3{
@@ -679,6 +410,7 @@ nav a:hover{
 
 .read-more{
     color:#c79b30;
+    text-decoration:none;
     font-weight:bold;
 }
 
@@ -686,85 +418,24 @@ nav a:hover{
     color:#061b36;
 }
 
+/* CONTACT */
 
-/* =========================
-   GALLERY
-========================= */
-
-.gallery{
+.contact-section{
     background:white;
 }
 
-.gallery-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-}
-
-.gallery-item{
-    height:270px;
-    border-radius:15px;
-    overflow:hidden;
-    background:#eee;
-    box-shadow:0 7px 20px rgba(0,0,0,.08);
-}
-
-.gallery-item img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.4s;
-}
-
-.gallery-item:hover img{
-    transform:scale(1.05);
-}
-
-
-/* =========================
-   CONTACT
-========================= */
-
-.contact{
-    background:#f6f8fb;
-}
-
-.contact-box{
+.contact-card{
     max-width:800px;
     margin:auto;
-    background:white;
-    padding:45px;
-    border-radius:18px;
     text-align:center;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
 }
 
-.contact-box p{
-    margin-bottom:10px;
+.contact-card p{
+    margin-bottom:8px;
+    color:#555;
 }
 
-.contact-links{
-    margin-top:25px;
-    display:flex;
-    justify-content:center;
-    gap:12px;
-    flex-wrap:wrap;
-}
-
-.btn-outline{
-    border:2px solid #061b36;
-    color:#061b36;
-}
-
-.btn-outline:hover{
-    background:#061b36 !important;
-    color:white;
-}
-
-
-/* =========================
-   WHATSAPP
-========================= */
+/* WHATSAPP */
 
 .whatsapp{
     position:fixed;
@@ -773,54 +444,38 @@ nav a:hover{
     background:#25D366;
     color:white;
     padding:14px 22px;
-    border-radius:30px;
+    border-radius:40px;
+    text-decoration:none;
     font-weight:bold;
     z-index:999;
     box-shadow:0 5px 20px rgba(0,0,0,.2);
 }
 
 .whatsapp:hover{
-    background:#128C7E;
+    transform:translateY(-3px);
 }
 
-
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer{
     background:#061b36;
     color:white;
     text-align:center;
-    padding:35px 20px;
-}
-
-.footer-logo{
-    font-size:25px;
-    font-weight:bold;
-    margin-bottom:10px;
-}
-
-.footer-logo span{
-    color:#d4af37;
+    padding:30px 20px;
 }
 
 footer p{
-    margin:5px 0;
-    color:#d3dbe4;
+    margin:5px;
 }
 
+/* MOBILE */
 
-/* =========================
-   MOBILE
-========================= */
-
-@media(max-width:900px){
+@media(max-width:800px){
 
     header{
-        position:relative;
         justify-content:center;
         gap:15px;
+        text-align:center;
     }
 
     nav{
@@ -832,121 +487,77 @@ footer p{
     }
 
     .hero{
-        padding:70px 5%;
-    }
-
-    .hero-container{
-        justify-content:center;
+        padding:60px 6%;
+        gap:35px;
         text-align:center;
     }
 
-    .hero-text{
-        order:2;
+    .profile-box{
+        width:260px;
+        height:260px;
     }
 
-    .profile-container{
-        order:1;
-        width:270px;
-        height:270px;
+    .hero-text h1{
+        font-size:40px;
     }
 
-    .hero-buttons{
-        justify-content:center;
+    .hero-text h2{
+        font-size:21px;
     }
 
-    .about-grid,
-    .skills-grid,
-    .education-grid{
-        grid-template-columns:1fr;
+    section{
+        padding:55px 6%;
     }
 
-    .summary-grid,
-    .experience-grid,
-    .cert-grid,
-    .services-grid,
-    .blog-grid{
-        grid-template-columns:1fr 1fr;
+    .about-content{
+        text-align:center;
     }
 
-    .software-grid{
-        grid-template-columns:1fr 1fr;
+    .about-image img{
+        max-width:350px;
     }
 
-    .gallery-grid{
-        grid-template-columns:1fr 1fr;
+    .award-image{
+        height:320px;
     }
 
 }
 
+@media(max-width:500px){
 
-@media(max-width:600px){
-
-    section{
-        padding:60px 0;
+    .logo{
+        font-size:25px;
     }
 
-    .hero h1{
-        font-size:40px;
+    .hero-text h1{
+        font-size:34px;
     }
 
-    .hero h2{
-        font-size:20px;
+    .hero-text h2{
+        font-size:19px;
     }
 
-    .hero p{
-        font-size:16px;
+    .btn{
+        margin:8px 3px;
     }
 
-    .profile-container{
+    .profile-box{
         width:230px;
         height:230px;
     }
 
-    .section-title h2{
-        font-size:30px;
-    }
-
-    .summary-grid,
-    .experience-grid,
-    .cert-grid,
-    .services-grid,
-    .blog-grid,
-    .software-grid,
-    .gallery-grid{
-        grid-template-columns:1fr;
-    }
-
-    .about-image img{
-        max-width:100%;
-    }
-
     .award-image{
-        height:280px;
-    }
-
-    .contact-box{
-        padding:30px 20px;
-    }
-
-    .whatsapp{
-        right:12px;
-        bottom:12px;
-        padding:12px 18px;
+        height:260px;
     }
 
 }
 
 </style>
-
 </head>
-
 
 <body>
 
-
-<!-- =========================
-     HEADER
-========================= -->
+<!-- HEADER -->
 
 <header>
 
@@ -956,40 +567,26 @@ Salman <span>Finance</span>
 
 <nav>
 <a href="#about">About</a>
+<a href="#awards">Awards</a>
 <a href="#experience">Experience</a>
 <a href="#skills">Skills</a>
-<a href="#education">Education</a>
-<a href="#certifications">Certifications</a>
-<a href="#awards">Awards</a>
 <a href="#services">Services</a>
-<a href="#blog">Blog</a>
-<a href="#gallery">Gallery</a>
+<a href="#articles">Articles</a>
 <a href="#contact">Contact</a>
 </nav>
 
 </header>
 
 
-<!-- =========================
-     HERO
-========================= -->
+<!-- HERO -->
 
 <section class="hero">
 
-<div class="hero-container">
-
-<div class="profile-container">
-
-<img src="profile.png" alt="Salmanul Faris - Senior Accountant">
-
+<div class="profile-box">
+<img src="profile.png" alt="Salmanul Faris">
 </div>
-
 
 <div class="hero-text">
-
-<div class="hero-label">
-Senior Accountant • Finance Professional
-</div>
 
 <h1>
 Salmanul <span>Faris</span>
@@ -1005,9 +602,7 @@ Experienced in UAE and Indian accounting environments across manufacturing,
 chemicals, trading and rental business operations.
 </p>
 
-<div class="hero-buttons">
-
-<a class="btn btn-gold" href="#contact">
+<a class="btn" href="#contact">
 Contact Me
 </a>
 
@@ -1015,109 +610,49 @@ Contact Me
 Download CV
 </a>
 
-<a class="btn btn-dark"
-href="https://www.linkedin.com/in/salmanulfaris786"
-target="_blank">
-LinkedIn
-</a>
-
-</div>
-
-</div>
-
 </div>
 
 </section>
 
 
-<!-- =========================
-     ABOUT
-========================= -->
+<!-- ABOUT -->
 
 <section id="about" class="about">
 
-<div class="container">
+<h2 class="title">About Me</h2>
 
-<div class="section-title">
-
-<h2>About Me</h2>
-
-<span></span>
-
-<p>
-A practical accounting and finance professional with experience across
-multiple industries and business environments.
-</p>
-
-</div>
-
-
-<div class="about-grid">
+<div class="about-content">
 
 <div class="about-text">
 
 <p>
-I am Salmanul Faris, a Senior Accountant and Finance Professional with
-5+ years of experience in accounting, finance operations and reporting
-across manufacturing, chemicals, trading and multi-industry environments.
+I am Salmanul Faris, a Senior Accountant and Finance Professional with 5+ years of experience in accounting, finance operations and reporting across manufacturing, chemicals, trading and multi-industry environments.
 </p>
 
 <p>
-I started my professional journey in Kerala, India, where I gained
-practical experience in accounting, online sales coordination and business
-operations in a manufacturing environment.
+I started my professional journey in Kerala, India, where I gained practical experience in accounting, online sales coordination and business operations within a manufacturing environment.
 </p>
 
 <p>
-After moving to the UAE, I expanded my experience in finance and accounting
-operations, including financial reporting, bank reconciliation, accounts
-payable, accounts receivable, supplier management, customer follow-up,
-cash flow monitoring and VAT-related accounting support.
+After moving to the UAE, I developed my expertise in finance and accounting operations, including financial reporting, reconciliations, accounts payable, accounts receivable, VAT support, supplier management and daily finance operations.
 </p>
 
 <p>
-My professional experience has given me exposure to different business
-models and operational environments. I have worked with manufacturing,
-chemical, trading and rental-related businesses and developed a practical
-understanding of how accounting connects with day-to-day business operations.
+Currently, I work as Senior Accountant & Finance Executive, handling accounting and finance activities across Werner Generators LLC, Exigen LLC and Radiant Energy, supporting manufacturing, trading and rental business operations.
 </p>
 
 <p>
-Currently, I work across Werner Generators LLC, Exigen LLC and Radiant Energy,
-supporting accounting and finance activities across manufacturing, trading
-and rental business operations.
+My experience across different industries has helped me develop a practical understanding of financial management, accounting systems, reporting and business operations.
 </p>
 
 <p>
-My work involves maintaining accounting records, preparing reports,
-reconciliations, monitoring receivables and payables, reviewing expenses,
-supporting management information and helping maintain financial control.
-</p>
-
-<p>
-I believe that a good accountant should understand more than accounting
-entries. Understanding business operations, cash flow, customers, suppliers,
-costs and internal processes is equally important for providing useful
-financial information.
-</p>
-
-<p>
-Through Salman Finance, I want to document my professional journey, share
-practical accounting and finance knowledge, publish useful articles and
-build a professional platform that represents my skills, experience,
-certifications, projects and future career development.
+My professional focus is to maintain accurate financial information, improve finance processes and support businesses with reliable accounting and reporting.
 </p>
 
 </div>
-
 
 <div class="about-image">
-
-<img src="photo.png"
-alt="Salmanul Faris Professional Photo">
-
-</div>
-
+<img src="photo.png" alt="Salmanul Faris Professional Photo">
 </div>
 
 </div>
@@ -1125,617 +660,39 @@ alt="Salmanul Faris Professional Photo">
 </section>
 
 
-<!-- =========================
-     PROFESSIONAL SUMMARY
-========================= -->
-
-<section class="summary">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Professional Highlights</h2>
-
-<span></span>
-
-<p>
-Key areas that represent my professional background.
-</p>
-
-</div>
-
-
-<div class="summary-grid">
-
-<div class="summary-card">
-
-<h3>Industry Exposure</h3>
-
-<p>
-Manufacturing, Chemical Manufacturing, Trading, Generator Manufacturing
-and Rental Business Operations.
-</p>
-
-</div>
-
-
-<div class="summary-card">
-
-<h3>Finance Operations</h3>
-
-<p>
-Financial reporting, bank reconciliation, AP, AR, ageing analysis,
-cash flow monitoring, expense checking and accounting records.
-</p>
-
-</div>
-
-
-<div class="summary-card">
-
-<h3>ERP & Accounting Systems</h3>
-
-<p>
-Practical exposure to Tally Prime, Tally ERP, Zoho Books, QuickBooks,
-Peachtree, SAP FICO and Microsoft Excel.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================= -->
-
-<section id="experience" class="experience">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Professional Experience</h2>
-
-<span></span>
-
-<p>
-Experience across India and the UAE in accounting, finance and business
-operations.
-</p>
-
-</div>
-
-
-<div class="experience-grid">
-
-
-<div class="experience-card">
-
-<h3>
-Senior Accountant & Finance Executive
-</h3>
-
-<div class="company">
-Werner Generators LLC • Exigen LLC • Radiant Energy — UAE
-</div>
-
-<ul>
-
-<li>Managing accounting and finance activities across three business operations.</li>
-
-<li>Supporting manufacturing, trading and rental business environments.</li>
-
-<li>Bank reconciliation and bank ledger monitoring.</li>
-
-<li>Accounts payable and accounts receivable management.</li>
-
-<li>Customer and supplier ageing analysis and follow-up.</li>
-
-<li>Purchase entries, LPO and quotation-related finance support.</li>
-
-<li>Sales entries and revenue-related accounting records.</li>
-
-<li>Petty cash and expense monitoring.</li>
-
-<li>Daily fund flow and financial tracking through Excel.</li>
-
-<li>VAT-related accounting support and documentation.</li>
-
-<li>SOA preparation and customer/supplier follow-up.</li>
-
-<li>Management and administrative finance support.</li>
-
-</ul>
-
-</div>
-
-
-<div class="experience-card">
-
-<h3>
-Senior Accountant — UAE
-</h3>
-
-<div class="company">
-Chemical Manufacturing Environment
-</div>
-
-<ul>
-
-<li>Handled day-to-day accounting and finance operations.</li>
-
-<li>Maintained financial records and accounting ledgers.</li>
-
-<li>Performed bank and account reconciliations.</li>
-
-<li>Managed supplier and customer accounts.</li>
-
-<li>Supported accounts payable and receivable activities.</li>
-
-<li>Prepared financial information and internal reports.</li>
-
-<li>Supported VAT-related information and documentation.</li>
-
-<li>Worked with finance and operational teams.</li>
-
-</ul>
-
-</div>
-
-
-<div class="experience-card">
-
-<h3>
-Accountant — India
-</h3>
-
-<div class="company">
-Vanguard Doors and Ironmongeries LLP — Kerala, India
-</div>
-
-<ul>
-
-<li>Accounting and financial record management.</li>
-
-<li>Business operations support.</li>
-
-<li>Online sales coordination.</li>
-
-<li>Customer and transaction management.</li>
-
-<li>Purchase and sales-related accounting activities.</li>
-
-<li>Manufacturing business environment exposure.</li>
-
-<li>Received recognition for professional performance in the accounts department.</li>
-
-</ul>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     ACCOUNTING SKILLS
-========================= -->
-
-<section id="skills" class="skills">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Accounting & Finance Skills</h2>
-
-<span></span>
-
-<p>
-Core accounting and financial management capabilities.
-</p>
-
-</div>
-
-
-<div class="skills-grid">
-
-
-<div class="skill-box">
-
-<h3>Accounting & Finance</h3>
-
-<div class="skill-list">
-
-<span class="skill gold">Bookkeeping</span>
-<span class="skill">Financial Reporting</span>
-<span class="skill">General Ledger</span>
-<span class="skill">Bank Reconciliation</span>
-<span class="skill">Accounts Payable</span>
-<span class="skill">Accounts Receivable</span>
-<span class="skill">Ageing Analysis</span>
-<span class="skill">Cash Flow Monitoring</span>
-<span class="skill">Cost Control</span>
-<span class="skill">Expense Checking</span>
-<span class="skill">VAT Support</span>
-<span class="skill">Audit Support</span>
-<span class="skill">SOA Preparation</span>
-<span class="skill">Petty Cash</span>
-
-</div>
-
-</div>
-
-
-<div class="skill-box">
-
-<h3>Business & Operations</h3>
-
-<div class="skill-list">
-
-<span class="skill gold">Purchase Accounting</span>
-<span class="skill">Sales Accounting</span>
-<span class="skill">Supplier Management</span>
-<span class="skill">Customer Follow-up</span>
-<span class="skill">LPO & Quotations</span>
-<span class="skill">Fund Flow Monitoring</span>
-<span class="skill">Management Reporting</span>
-<span class="skill">Finance Coordination</span>
-<span class="skill">Process Monitoring</span>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     SOFTWARE
-========================= -->
-
-<section class="software">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Accounting Software & ERP</h2>
-
-<span></span>
-
-<p>
-Practical exposure to commonly used accounting and financial systems.
-</p>
-
-</div>
-
-
-<div class="software-grid">
-
-
-<div class="software-card">
-<h3>Tally Prime</h3>
-<p>Advanced Practical Knowledge</p>
-</div>
-
-
-<div class="software-card">
-<h3>Tally ERP</h3>
-<p>Advanced Practical Knowledge</p>
-</div>
-
-
-<div class="software-card">
-<h3>Zoho Books</h3>
-<p>Practical Working Knowledge</p>
-</div>
-
-
-<div class="software-card">
-<h3>QuickBooks</h3>
-<p>Accounting Software Knowledge</p>
-</div>
-
-
-<div class="software-card">
-<h3>Peachtree</h3>
-<p>Accounting Software Knowledge</p>
-</div>
-
-
-<div class="software-card">
-<h3>SAP FICO</h3>
-<p>Certification & Fundamentals</p>
-</div>
-
-
-<div class="software-card">
-<h3>Microsoft Excel</h3>
-<p>Financial Reporting & Analysis</p>
-</div>
-
-
-<div class="software-card">
-<h3>ERP & Finance Systems</h3>
-<p>Multi-system Accounting Experience</p>
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     EDUCATION
-========================= -->
-
-<section id="education" class="education">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Education</h2>
-
-<span></span>
-
-<p>
-Academic background supporting my accounting and finance career.
-</p>
-
-</div>
-
-
-<div class="education-grid">
-
-
-<div class="education-card">
-
-<h3>
-Master of Commerce — M.Com
-</h3>
-
-<p>
-SGVU University
-</p>
-
-<p class="year">
-2023 – 2025
-</p>
-
-</div>
-
-
-<div class="education-card">
-
-<h3>
-Bachelor of Commerce — B.Com Finance
-</h3>
-
-<p>
-Calicut University
-</p>
-
-<p class="year">
-2018 – 2021
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     CERTIFICATIONS
-========================= -->
-
-<section id="certifications" class="certifications">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Certifications & Professional Training</h2>
-
-<span></span>
-
-<p>
-Professional qualifications and additional accounting and finance training.
-</p>
-
-</div>
-
-
-<div class="cert-grid">
-
-
-<div class="cert-card">
-
-<div class="cert-icon">📜</div>
-
-<h3>
-International Higher Diploma in Computerised Accounting & Finance
-</h3>
-
-<p>
-Professional accounting and computerised finance training.
-</p>
-
-</div>
-
-
-<div class="cert-card">
-
-<div class="cert-icon">📊</div>
-
-<h3>
-Gulf VAT Training
-</h3>
-
-<p>
-Training focused on VAT concepts and accounting awareness relevant to
-Gulf business environments.
-</p>
-
-</div>
-
-
-<div class="cert-card">
-
-<div class="cert-icon">💼</div>
-
-<h3>
-SAP FICO Certification
-</h3>
-
-<p>
-Training and certification covering SAP Financial Accounting and
-Controlling fundamentals.
-</p>
-
-</div>
-
-
-<div class="cert-card">
-
-<div class="cert-icon">💻</div>
-
-<h3>
-Accounting Software Training
-</h3>
-
-<p>
-Practical exposure and training across accounting software and ERP systems.
-</p>
-
-</div>
-
-
-<div class="cert-card">
-
-<div class="cert-icon">📈</div>
-
-<h3>
-Microsoft Excel for Finance
-</h3>
-
-<p>
-Financial reporting, data management, reconciliation and business reporting
-through Excel.
-</p>
-
-</div>
-
-
-<div class="cert-card">
-
-<div class="cert-icon">🎓</div>
-
-<h3>
-Additional Online Learning
-</h3>
-
-<p>
-Continuous learning in accounting, finance, VAT, ERP systems and professional
-development.
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     AWARDS
-========================= -->
+<!-- AWARDS -->
 
 <section id="awards" class="awards">
 
-<div class="container">
+<h2 class="title">Awards & Recognition</h2>
 
-<div class="section-title">
-
-<h2>Awards & Recognition</h2>
-
-<span></span>
-
-<p>
-Professional recognition from my career journey.
-</p>
-
-</div>
-
-
-<div class="awards-grid">
-
+<div class="awards-container">
 
 <div class="award-card">
 
 <div class="award-image">
-
-<img src="WhatsApp Image 2026-08-10 at 10.57.00 PM.jpeg"
-alt="Best Performer Award">
-
+<img src="WhatsApp Image 2026-08-10 at 10.57.00 PM.jpeg" alt="Best Performer Award">
 </div>
-
 
 <div class="award-content">
 
-<span class="award-badge">
-🏆 Best Performer
-</span>
+<span class="award-badge">🏆 AWARD</span>
 
-<h3>
-Best Performer — Accounts Department
-</h3>
+<h3>Best Performer</h3>
+
+<p class="award-company">
+Accounts Department
+</p>
+
+<p class="award-description">
+Recognized for exceptional performance and outstanding contribution to the accounts department, with recognition for dedication, accuracy and commitment to professional excellence.
+</p>
 
 <p class="award-company">
 Vanguard Doors and Ironmongeries LLP | Kerala, India
 </p>
 
-<p>
-Recognized for professional performance, dedication, accuracy and
-contribution to accounting and financial operations.
-</p>
-
-<p class="award-year">
-Professional Recognition
-</p>
-
 </div>
-
-</div>
-
 
 </div>
 
@@ -1744,113 +701,69 @@ Professional Recognition
 </section>
 
 
-<!-- =========================
-     SERVICES
-========================= -->
+<!-- EXPERIENCE -->
 
-<section id="services" class="services">
+<section id="experience">
 
-<div class="container">
+<h2 class="title">
+Professional Experience
+</h2>
 
-<div class="section-title">
+<div class="cards">
 
-<h2>Professional Services</h2>
-
-<span></span>
-
-<p>
-Areas where my accounting and finance experience can support businesses.
-</p>
-
-</div>
-
-
-<div class="services-grid">
-
-
-<div class="service-card">
+<div class="card">
 
 <h3>
-Accounting Support
+Senior Accountant & Finance Executive
 </h3>
 
 <p>
-Bookkeeping, accounting entries, ledger maintenance, bank reconciliation
-and financial record management.
+<strong>Werner Generators LLC | Exigen LLC | Radiant Energy - UAE</strong>
+</p>
+
+<br>
+
+<p>
+Managing accounting and finance activities across manufacturing, trading and rental business operations, including financial reporting, general ledger, bank reconciliation, accounts payable, accounts receivable, ageing analysis, cash flow monitoring, expense review, VAT support and finance reporting.
 </p>
 
 </div>
 
 
-<div class="service-card">
+<div class="card">
 
 <h3>
-Financial Reporting
+Senior Accountant - UAE
 </h3>
 
 <p>
-Preparation and organization of financial information, internal reports,
-ageing reports and management-focused Excel reports.
+<strong>Fusion Adhesives | Chemical Manufacturing</strong>
+</p>
+
+<br>
+
+<p>
+Handled accounting operations including supplier management, customer accounts, reconciliations, financial records, accounts payable and receivable, financial reporting, VAT support and day-to-day finance activities.
 </p>
 
 </div>
 
 
-<div class="service-card">
+<div class="card">
 
 <h3>
-AP & AR Support
+Accountant - India
 </h3>
 
 <p>
-Supplier accounts, customer accounts, ageing analysis, SOA preparation
-and payment/collection follow-up.
+<strong>Vanguard Doors and Ironmongeries LLP | Kerala</strong>
 </p>
 
-</div>
-
-
-<div class="service-card">
-
-<h3>
-VAT Accounting Support
-</h3>
+<br>
 
 <p>
-Accounting-side support for VAT records, documentation, transaction review
-and organized financial information.
+Gained practical experience in accounting, financial records, business operations support and online sales coordination in a manufacturing environment.
 </p>
-
-</div>
-
-
-<div class="service-card">
-
-<h3>
-Excel Finance Reports
-</h3>
-
-<p>
-Financial trackers, bank ledgers, fund flow monitoring, ageing reports
-and customized Excel-based finance reports.
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<h3>
-Accounting Software Support
-</h3>
-
-<p>
-Practical support and knowledge across Tally, Zoho Books, QuickBooks,
-Peachtree, SAP FICO and Excel.
-</p>
-
-</div>
-
 
 </div>
 
@@ -1859,29 +772,224 @@ Peachtree, SAP FICO and Excel.
 </section>
 
 
-<!-- =========================
-     BLOG
-========================= -->
+<!-- HIGHLIGHTS -->
 
-<section id="blog" class="blog">
+<section>
 
-<div class="container">
+<h2 class="title">
+Professional Highlights
+</h2>
 
-<div class="section-title">
+<div class="cards">
 
-<h2>Articles & Professional Insights</h2>
+<div class="card">
 
-<span></span>
+<h3>Industry Experience</h3>
 
 <p>
-Practical accounting, finance, VAT and career-related knowledge shared
-through my professional journey.
+Manufacturing, Chemicals, Trading and Rental Business Operations.
 </p>
 
 </div>
 
 
-<div class="blog-grid">
+<div class="card">
+
+<h3>Finance Skills</h3>
+
+<p>
+Financial Reporting, Reconciliation, AP, AR, Ageing Analysis, VAT Support, Cash Flow Monitoring and Financial Control.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>ERP & Accounting Systems</h3>
+
+<p>
+Practical experience with Tally, Zoho Books, QuickBooks, Peachtree, SAP FICO and Microsoft Excel.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="skills-section">
+
+<h2 class="title">
+Technical Skills
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Accounting & Finance</h3>
+
+<p class="skill-list">
+✔ Bookkeeping<br>
+✔ Financial Reporting<br>
+✔ General Ledger Management<br>
+✔ Bank Reconciliation<br>
+✔ Accounts Payable & Receivable<br>
+✔ Customer & Supplier Ageing<br>
+✔ VAT Support<br>
+✔ Audit Support<br>
+✔ Cash Flow Monitoring<br>
+✔ Expense & Cost Monitoring
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Accounting Software & ERP</h3>
+
+<p class="skill-list">
+✔ Tally Prime - Advanced<br>
+✔ Tally ERP - Advanced<br>
+✔ Zoho Books - Practical Knowledge<br>
+✔ QuickBooks - Practical Knowledge<br>
+✔ Peachtree - Practical Knowledge<br>
+✔ SAP FICO - Certification / Fundamentals<br>
+✔ Microsoft Excel - Advanced Financial Reporting
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EDUCATION -->
+
+<section class="education-section">
+
+<h2 class="title">
+Education & Certifications
+</h2>
+
+<div class="card education-card">
+
+<h3>Education</h3>
+
+<br>
+
+<p>
+🎓 <strong>Master of Commerce (M.Com)</strong><br>
+SGVU University | 2023 - 2025
+</p>
+
+<br>
+
+<p>
+🎓 <strong>Bachelor of Commerce - Finance (B.Com)</strong><br>
+Calicut University | 2018 - 2021
+</p>
+
+<br>
+
+<h3>Professional Qualifications</h3>
+
+<br>
+
+<p>
+📜 International Higher Diploma in Computerised Accounting & Finance
+</p>
+
+<p>
+📜 Gulf VAT Training
+</p>
+
+<p>
+📜 SAP FICO Certification
+</p>
+
+<p>
+📜 Additional Online Finance & Accounting Certifications
+</p>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services" class="services-section">
+
+<h2 class="title">
+Professional Services
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Accounting Support</h3>
+
+<p>
+Bookkeeping, accounting entries, ledger maintenance, reconciliation and financial record management.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Business Finance Support</h3>
+
+<p>
+Financial reporting, AP/AR management, ageing analysis, cash flow monitoring and finance process support.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Excel & Reporting</h3>
+
+<p>
+Financial reports, management reports, ageing reports and practical Excel-based accounting analysis.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Accounting Software Support</h3>
+
+<p>
+Practical support and knowledge across Tally, Zoho Books, QuickBooks, Peachtree, SAP FICO and Excel.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ARTICLES -->
+
+<section id="articles" class="blog-section">
+
+<h2 class="title">
+Latest Articles
+</h2>
+
+<div class="cards">
 
 
 <div class="blog-card">
@@ -1895,8 +1003,8 @@ Importance of Proper Bookkeeping
 </h3>
 
 <p>
-Why accurate bookkeeping matters for business growth, financial control,
-cash flow and better decision-making.
+Understanding how accurate accounting records help businesses control finances,
+manage cash flow and make better business decisions.
 </p>
 
 <a class="read-more" href="blog-bookkeeping.html">
@@ -1917,11 +1025,11 @@ UAE VAT Awareness
 </h3>
 
 <p>
-An introduction to VAT documentation, accounting records and practical
-awareness for UAE businesses.
+An introduction to VAT documentation, accounting records and practical awareness
+for UAE businesses.
 </p>
 
-<a class="read-more" href="blog-uae-vat.html">
+<a class="read-more" href="blog-vat.html">
 Read Article →
 </a>
 
@@ -1939,134 +1047,53 @@ My Accounting Journey in UAE
 </h3>
 
 <p>
-A professional journey from India to the UAE, practical lessons,
-career development and finance experience.
+A professional journey from India to the UAE, practical lessons, career development
+and finance experience.
 </p>
 
-<a class="read-more" href="blog-journey.html">
+<a class="read-more" href="blog-uae-journey.html">
 Read Article →
 </a>
 
 </div>
 
-
-</div>
-
 </div>
 
 </section>
 
 
-<!-- =========================
-     GALLERY
-========================= -->
+<!-- CONTACT -->
 
-<section id="gallery" class="gallery">
+<section id="contact" class="contact-section">
 
-<div class="container">
+<h2 class="title">
+Contact Me
+</h2>
 
-<div class="section-title">
-
-<h2>Professional Gallery</h2>
-
-<span></span>
+<div class="card contact-card">
 
 <p>
-A visual collection of professional achievements, certifications,
-work environments and career memories.
-</p>
-
-</div>
-
-
-<div class="gallery-grid">
-
-
-<div class="gallery-item">
-
-<img src="photo.png"
-alt="Salmanul Faris Professional Photo">
-
-</div>
-
-
-<div class="gallery-item">
-
-<img src="profile.png"
-alt="Salmanul Faris Profile Photo">
-
-</div>
-
-
-<div class="gallery-item">
-
-<img src="WhatsApp Image 2026-08-10 at 10.57.00 PM.jpeg"
-alt="Professional Award">
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================
-     CONTACT
-========================= -->
-
-<section id="contact" class="contact">
-
-<div class="container">
-
-<div class="section-title">
-
-<h2>Let's Connect</h2>
-
-<span></span>
-
-<p>
-Open to professional networking, accounting discussions, career
-opportunities and business collaborations.
-</p>
-
-</div>
-
-
-<div class="contact-box">
-
-<p>
-If you would like to connect with me regarding accounting, finance,
-professional opportunities or collaboration, feel free to contact me.
+I am open to professional networking, finance discussions,
+accounting opportunities and business collaborations.
 </p>
 
 <br>
 
 <p>
-<strong>📧 Email:</strong>
-<a href="mailto:mailforsfaris@gmail.com">
-mailforsfaris@gmail.com
-</a>
+📧 <strong>Email:</strong> mailforsfaris@gmail.com
 </p>
 
 <p>
-<strong>📱 WhatsApp:</strong>
-+971 56 910 4305
+📱 <strong>WhatsApp:</strong> +971 56 910 4305
 </p>
 
+<br>
 
-<div class="contact-links">
-
-<a class="btn btn-gold"
-href="mailto:mailforsfaris@gmail.com">
+<a class="btn" href="mailto:mailforsfaris@gmail.com">
 Send Email
 </a>
 
-
-<a class="btn btn-outline"
-style="background:#071d35;color:white;"
+<a class="btn btn-dark"
 href="https://www.linkedin.com/in/salmanulfaris786"
 target="_blank">
 LinkedIn Profile
@@ -2074,49 +1101,32 @@ LinkedIn Profile
 
 </div>
 
-</div>
-
-</div>
-
 </section>
 
 
-<!-- =========================
-     WHATSAPP
-========================= -->
+<!-- WHATSAPP -->
 
-<a
-class="whatsapp"
+<a class="whatsapp"
 href="https://wa.me/971569104305"
 target="_blank">
-
-💬 WhatsApp
-
+WhatsApp
 </a>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+<!-- FOOTER -->
 
 <footer>
 
-<div class="footer-logo">
-Salman <span>Finance</span>
-</div>
-
 <p>
-Salmanul Faris | Senior Accountant | Finance Professional |
-Accounting & ERP Specialist
+© 2026 Salman Finance | Salmanul Faris
 </p>
 
 <p>
-© 2026 Salman Finance. All Rights Reserved.
+Senior Accountant | Finance Professional | Accounting & ERP Specialist
 </p>
 
 </footer>
 
 
 </body>
-
 </html>
